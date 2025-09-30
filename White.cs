@@ -77,7 +77,6 @@
         public double Task6(double x)
         {
             double answer = 0;
-            double E = Math.Pow(10, -4);
 
             // code here
             for (int a = 1; true; a += 2)
