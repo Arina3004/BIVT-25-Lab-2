@@ -77,20 +77,18 @@
         public double Task6(double x)
         {
             double answer = 0;
-            double E = Math.Pow(10, -4);
 
             // code here
-            for (int a = 1; true; a += 2)
+            for (int a = 0; true; a += 2)
             {
                 double i = Math.Pow(x, a);
-                if (i > E)
+                answer += i;
+                if (i < E)
                 {
-                    answer += i;
-                }
-                else
-                {
+                    
                     break;
                 }
+                
             }
             // end
 
